@@ -1,0 +1,30 @@
+# ---- ThreatGuardian .gitignore ----
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Runtime IPC "switch" files created during scans
+switch_*.bb
+*.bb
+real-time_switch.blink
+
+# Prebuilt binary - do NOT commit the .exe to the repo.
+# Ship it as a GitHub Release asset instead (Releases > Draft a new release > attach binary).
+ThreatGuardian.exe
+*.exe
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
